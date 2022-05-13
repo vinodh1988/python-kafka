@@ -2,7 +2,7 @@ from kafka import KafkaProducer
 
 
 brokers=["localhost:9092"]
-topic="messages"
+topic="firstone"
 
 producer=KafkaProducer(bootstrap_servers=brokers)
 
